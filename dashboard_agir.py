@@ -46,9 +46,9 @@ template_theme2 = "darkly"
 url_theme1 = dbc.themes.FLATLY
 url_theme2 = dbc.themes.DARKLY
 
-csv_file_path = r'C:\Users\Pedro Augusto\Documents\Dashboards\Plotly-Dashboards-with-Dash-master\2-04-SimpleDashboardSolution\trimestre1.csv'
+
 # ===== Reading n cleaning File ====== #
-df = pd.read_csv(csv_file_path)
+df = pd.read_csv('trimestre1.csv')
 df_cru = df.copy()
 
 # Transformando em inteiros e retirando o cifrão R$
