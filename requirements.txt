@@ -4,3 +4,5 @@ plotly
 pandas
 numpy
 abc-analysis
+gunicorn
+
