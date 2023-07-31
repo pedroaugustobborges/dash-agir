@@ -5,4 +5,5 @@ pandas
 numpy
 abc-analysis
 gunicorn
-
+dash-renderer
+flask
