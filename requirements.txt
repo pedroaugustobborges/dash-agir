@@ -3,7 +3,6 @@ pandas
 gunicorn
 numpy
 abc_analysis
-html
 dcc
 Input
 Output
