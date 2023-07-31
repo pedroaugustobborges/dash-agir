@@ -102,17 +102,22 @@ def convert_to_text(trimestre):
     match trimestre:
         case 0:
             x = 'Todos trimestres'
+            break
         case 1:
             x = 'Primeiro trimestre de 2023'
+            break
         case 2:
             x = 'Segundo trimestre de 2023'
+            break
         case 3:
             x = 'Terceiro trimestre de 2023'
+            break
         case 4:
             x = '3'
-     
+            break
 
     return x
+
 
 
 # =========  Layout  =========== #
